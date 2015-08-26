@@ -458,4 +458,4 @@ var seq24963__$1 = cljs.core.next.call(null,seq24963);
 return reagent.core.partial.cljs$core$IFn$_invoke$arity$variadic(G__24964,seq24963__$1);
 });
 
-//# sourceMappingURL=core.js.map?rel=1440531848489
+//# sourceMappingURL=core.js.map?rel=1440563455985
