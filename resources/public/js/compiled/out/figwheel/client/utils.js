@@ -10,8 +10,8 @@ figwheel.client.utils.node_env_QMARK_ = (function figwheel$client$utils$node_env
 return !((goog.nodeGlobalRequire == null));
 });
 figwheel.client.utils.base_url_path = (function figwheel$client$utils$base_url_path(){
-return clojure.string.replace.call(null,goog.basePath,/(.*)goog\//,(function (p1__25248_SHARP_,p2__25247_SHARP_){
-return [cljs.core.str(p2__25247_SHARP_)].join('');
+return clojure.string.replace.call(null,goog.basePath,/(.*)goog\//,(function (p1__25567_SHARP_,p2__25566_SHARP_){
+return [cljs.core.str(p2__25566_SHARP_)].join('');
 }));
 });
 figwheel.client.utils.host_env_QMARK_ = (function figwheel$client$utils$host_env_QMARK_(){
@@ -34,8 +34,8 @@ return (window["CustomEvent"]);
 return and__18109__auto__;
 }
 })())){
-return document.body.dispatchEvent((new CustomEvent(event_name,(function (){var obj25252 = {"detail":data};
-return obj25252;
+return document.body.dispatchEvent((new CustomEvent(event_name,(function (){var obj25571 = {"detail":data};
+return obj25571;
 })())));
 } else {
 return null;
@@ -50,8 +50,8 @@ return null;
 }
 });
 figwheel.client.utils.log = (function figwheel$client$utils$log(){
-var G__25258 = arguments.length;
-switch (G__25258) {
+var G__25577 = arguments.length;
+switch (G__25577) {
 case 1:
 return figwheel.client.utils.log.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -71,34 +71,34 @@ return figwheel.client.utils.log.call(null,new cljs.core.Keyword(null,"info","in
 });
 
 figwheel.client.utils.log.cljs$core$IFn$_invoke$arity$2 = (function (level,arg){
-var f = (function (){var pred__25259 = cljs.core._EQ_;
-var expr__25260 = (cljs.core.truth_(figwheel.client.utils.html_env_QMARK_.call(null))?level:new cljs.core.Keyword(null,"info","info",-317069002));
-if(cljs.core.truth_(pred__25259.call(null,new cljs.core.Keyword(null,"warn","warn",-436710552),expr__25260))){
-return ((function (pred__25259,expr__25260){
-return (function (p1__25253_SHARP_){
-return console.warn(p1__25253_SHARP_);
+var f = (function (){var pred__25578 = cljs.core._EQ_;
+var expr__25579 = (cljs.core.truth_(figwheel.client.utils.html_env_QMARK_.call(null))?level:new cljs.core.Keyword(null,"info","info",-317069002));
+if(cljs.core.truth_(pred__25578.call(null,new cljs.core.Keyword(null,"warn","warn",-436710552),expr__25579))){
+return ((function (pred__25578,expr__25579){
+return (function (p1__25572_SHARP_){
+return console.warn(p1__25572_SHARP_);
 });
-;})(pred__25259,expr__25260))
+;})(pred__25578,expr__25579))
 } else {
-if(cljs.core.truth_(pred__25259.call(null,new cljs.core.Keyword(null,"debug","debug",-1608172596),expr__25260))){
-return ((function (pred__25259,expr__25260){
-return (function (p1__25254_SHARP_){
-return console.debug(p1__25254_SHARP_);
+if(cljs.core.truth_(pred__25578.call(null,new cljs.core.Keyword(null,"debug","debug",-1608172596),expr__25579))){
+return ((function (pred__25578,expr__25579){
+return (function (p1__25573_SHARP_){
+return console.debug(p1__25573_SHARP_);
 });
-;})(pred__25259,expr__25260))
+;})(pred__25578,expr__25579))
 } else {
-if(cljs.core.truth_(pred__25259.call(null,new cljs.core.Keyword(null,"error","error",-978969032),expr__25260))){
-return ((function (pred__25259,expr__25260){
-return (function (p1__25255_SHARP_){
-return console.error(p1__25255_SHARP_);
+if(cljs.core.truth_(pred__25578.call(null,new cljs.core.Keyword(null,"error","error",-978969032),expr__25579))){
+return ((function (pred__25578,expr__25579){
+return (function (p1__25574_SHARP_){
+return console.error(p1__25574_SHARP_);
 });
-;})(pred__25259,expr__25260))
+;})(pred__25578,expr__25579))
 } else {
-return ((function (pred__25259,expr__25260){
-return (function (p1__25256_SHARP_){
-return console.log(p1__25256_SHARP_);
+return ((function (pred__25578,expr__25579){
+return (function (p1__25575_SHARP_){
+return console.log(p1__25575_SHARP_);
 });
-;})(pred__25259,expr__25260))
+;})(pred__25578,expr__25579))
 }
 }
 }
@@ -108,4 +108,4 @@ return f.call(null,arg);
 
 figwheel.client.utils.log.cljs$lang$maxFixedArity = 2;
 
-//# sourceMappingURL=utils.js.map?rel=1440563457878
+//# sourceMappingURL=utils.js.map?rel=1440626239763

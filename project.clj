@@ -1,7 +1,9 @@
 (defproject kurssisuoritukset "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-3211"]
-                 [reagent "0.5.0"]]
+                 [reagent "0.5.1-rc"]
+                 [reagent-utils "0.1.5"]
+                 [secretary "1.2.1"]]
 
   :source-paths ["src/clj"]
 
@@ -13,7 +15,8 @@
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src/cljs"]
 
-                        :figwheel {:on-jsload "kurssisuoritukset.core/main"}
+                        :figwheel {:on-jsload "kurssisuoritukset.core/init"
+                                   :server-port 3449}
 
                         :compiler {:main kurssisuoritukset.core
                                    :output-to "resources/public/js/compiled/app.js"
