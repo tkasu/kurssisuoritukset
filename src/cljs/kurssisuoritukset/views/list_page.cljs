@@ -1,21 +1,7 @@
-(ns kurssisuoritukset.views.list-page
-  (:require [reagent.core :as r]))
-
-;; App-state / Models
-
-(defonce coursesA (r/atom (sorted-map)))
-
-(defonce courses-id-counter (r/atom 0))
-
-(defonce add-input (r/atom (str)))
+(ns ^:figwheel-always kurssisuoritukset.views.list-page
+  (:require [kurssisuoritukset.data :refer [coursesA courses-id-counter add-input add-course]]))
 
 
-;; Add course helper function
-
-(defn add-course [name]
-  (let [id (swap! courses-id-counter inc)]
-    (do (swap! coursesA assoc id {:id id :name name})
-        (reset! add-input ""))))
 
 ;; Initial data
 
@@ -50,9 +36,9 @@
      [:ul
       (for [course courses]
         ^{:key (:id course)}
-        [:li [:a {:href (str "/" (:id course))} (:name course)]])]]))
+        [:li [:a {:href (str "#/courses/" (:id course))} (:name course)]])]]))
 
 (defn list-page []
   [:div
    [courses-component]
-   [:a {:href "#/id"} "id"]])
+   [:a {:href "#/courses/id"} "id"]])

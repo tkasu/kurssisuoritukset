@@ -1,7 +1,8 @@
 (ns kurssisuoritukset.core
     (:require [reagent.core :as r]
-              [reagent.session :as s]
               [kurssisuoritukset.views.pages :refer [pages]]
+              [kurssisuoritukset.data :refer [current-page current-course]]
+              [reagent.session :as s]
               [secretary.core :as secretary :include-macros true]
               [goog.events :as events]
               [goog.history.EventType :as EventType])
@@ -9,37 +10,27 @@
 
 (comment [kurssisuoritukset.session :as session :refer [global-put!]])
 
-(comment
-(defn current-page-will-mount []
-  (session/global-put! :current-page (#'pages :current-page)))
-
-(defn current-page-will-render []
-  (session/global-state :current-page))
-
-(defn page-component []
-  (r/create-class {:component-will-mount current-page-will-mount
-                   :reagent-render current-page-will-render})))
-
-(defn current-page []
-  [:div [(s/get :current-page)]])
-
 ; Route helpers
 
 (defn list-page-helper []
   (let [list-page (#'pages :list-page)]
     (s/put! :current-page list-page)))
 
-(defn course-page-helper []
+(defn course-page-helper [id]
   (let [course-page (#'pages :course-page)]
-    (s/put! :current-page course-page)))
+    (do
+      (s/put! :current-course id)
+      (s/put! :current-page course-page))))
 
-; Routes
+; Routes helper
+
+; Rout
 
 (secretary/set-config! :prefix "#")
 
-(secretary/defroute "/" [] (#'list-page-helper))
+(secretary/defroute "/" [] (list-page-helper))
 
-(secretary/defroute "/:id" [] (#'course-page-helper))
+(secretary/defroute "/courses/:id" [id] (course-page-helper id))
 
 (defn hook-browser-navigation! []
   (doto (History.)

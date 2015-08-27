@@ -10,8 +10,10 @@ goog.addDependency("../reagent/impl/batching.js", ['reagent.impl.batching'], ['r
 goog.addDependency("../reagent/impl/component.js", ['reagent.impl.component'], ['reagent.impl.util', 'reagent.interop', 'reagent.ratom', 'cljs.core', 'reagent.impl.batching', 'reagent.debug']);
 goog.addDependency("../reagent/impl/template.js", ['reagent.impl.template'], ['reagent.impl.util', 'reagent.interop', 'reagent.ratom', 'cljs.core', 'reagent.impl.batching', 'reagent.impl.component', 'reagent.debug', 'clojure.string']);
 goog.addDependency("../reagent/core.js", ['reagent.core'], ['reagent.impl.util', 'reagent.interop', 'reagent.ratom', 'cljs.core', 'cljsjs.react', 'reagent.impl.template', 'reagent.impl.batching', 'reagent.impl.component', 'reagent.debug']);
-goog.addDependency("../kurssisuoritukset/views/list_page.js", ['kurssisuoritukset.views.list_page'], ['reagent.core', 'cljs.core']);
-goog.addDependency("../kurssisuoritukset/views/course_page.js", ['kurssisuoritukset.views.course_page'], ['cljs.core']);
+goog.addDependency("../reagent/session.js", ['reagent.session'], ['reagent.core', 'cljs.core']);
+goog.addDependency("../kurssisuoritukset/data.js", ['kurssisuoritukset.data'], ['reagent.session', 'reagent.core', 'cljs.core']);
+goog.addDependency("../kurssisuoritukset/views/list_page.js", ['kurssisuoritukset.views.list_page'], ['cljs.core', 'kurssisuoritukset.data']);
+goog.addDependency("../kurssisuoritukset/views/course_page.js", ['kurssisuoritukset.views.course_page'], ['cljs.core', 'kurssisuoritukset.data']);
 goog.addDependency("../kurssisuoritukset/views/pages.js", ['kurssisuoritukset.views.pages'], ['cljs.core', 'kurssisuoritukset.views.list_page', 'kurssisuoritukset.views.course_page']);
 goog.addDependency("../cljs/core/async/impl/protocols.js", ['cljs.core.async.impl.protocols'], ['cljs.core']);
 goog.addDependency("../cljs/core/async/impl/ioc_helpers.js", ['cljs.core.async.impl.ioc_helpers'], ['cljs.core', 'cljs.core.async.impl.protocols']);
@@ -28,8 +30,7 @@ goog.addDependency("../figwheel/client/file_reloading.js", ['figwheel.client.fil
 goog.addDependency("../figwheel/client/heads_up.js", ['figwheel.client.heads_up'], ['cljs.core', 'cljs.core.async', 'figwheel.client.socket', 'clojure.string']);
 goog.addDependency("../clojure/walk.js", ['clojure.walk'], ['cljs.core']);
 goog.addDependency("../secretary/core.js", ['secretary.core'], ['cljs.core', 'clojure.string', 'clojure.walk']);
-goog.addDependency("../reagent/session.js", ['reagent.session'], ['reagent.core', 'cljs.core']);
-goog.addDependency("../kurssisuoritukset/core.js", ['kurssisuoritukset.core'], ['kurssisuoritukset.views.pages', 'reagent.session', 'reagent.core', 'cljs.core', 'goog.history.EventType', 'goog.History', 'secretary.core', 'goog.events']);
+goog.addDependency("../kurssisuoritukset/core.js", ['kurssisuoritukset.core'], ['kurssisuoritukset.views.pages', 'reagent.session', 'reagent.core', 'cljs.core', 'goog.history.EventType', 'goog.History', 'kurssisuoritukset.data', 'secretary.core', 'goog.events']);
 goog.addDependency("../cljs/repl.js", ['cljs.repl'], ['cljs.core']);
 goog.addDependency("../figwheel/client.js", ['figwheel.client'], ['goog.Uri', 'cljs.core', 'cljs.core.async', 'figwheel.client.file_reloading', 'figwheel.client.utils', 'cljs.repl', 'figwheel.client.heads_up', 'figwheel.client.socket', 'clojure.string']);
 goog.addDependency("../figwheel/connect.js", ['figwheel.connect'], ['cljs.core', 'kurssisuoritukset.core', 'figwheel.client', 'figwheel.client.utils']);
