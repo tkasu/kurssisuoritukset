@@ -19,7 +19,8 @@
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.6.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojurescript:0.0-3211" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.nrepl:0.2.6" level="project" />
-    <orderEntry type="library" name="Leiningen: reagent:0.5.0" level="project" />
+    <orderEntry type="library" name="Leiningen: reagent-utils:0.1.5" level="project" />
+    <orderEntry type="library" name="Leiningen: reagent:0.5.1-rc" level="project" />
     <orderEntry type="library" name="Leiningen: secretary:1.2.1" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler:v20150126" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/data.json:0.2.6" level="project" />
@@ -36,6 +37,6 @@
     <orderEntry type="library" name="Leiningen: junit:4.10" level="project" />
     <orderEntry type="library" name="Leiningen: org.hamcrest/hamcrest-core:1.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/google-closure-library-third-party:0.0-20140718-946a7d39" level="project" />
-    <orderEntry type="library" name="Leiningen: cljsjs/react:0.12.2-5" level="project" />
+    <orderEntry type="library" name="Leiningen: cljsjs/react:0.13.3-1" level="project" />
   </component>
 </module>

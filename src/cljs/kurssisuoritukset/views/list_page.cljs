@@ -1,5 +1,5 @@
 (ns ^:figwheel-always kurssisuoritukset.views.list-page
-  (:require [kurssisuoritukset.data :refer [coursesA courses-id-counter add-input add-course]]))
+  (:require [kurssisuoritukset.data :refer [coursesA courses-id-counter add-course-atom add-course add-assignment]]))
 
 
 
@@ -9,7 +9,11 @@
                 (add-course "wepa")
                 (add-course "TiKaPe")
                 (add-course "OhPe")
-                (add-course "weso")))
+                (add-course "weso")
+                (add-assignment 1 "Harkat" 5)
+                (add-assignment 1 "Harkat2" 3)
+                (add-assignment 2 "Tentti" 7)
+                (add-assignment 3 "Suullinen tentti" 12)))
 
 ; Views
 
@@ -26,7 +30,7 @@
 (defn add-course-component []
   [:div
    [:h2 "Add course"]
-   [add-course-input add-input]])
+   [add-course-input add-course-atom]])
 
 (defn courses-component []
   (let [courses (vals @coursesA)]
@@ -40,5 +44,4 @@
 
 (defn list-page []
   [:div
-   [courses-component]
-   [:a {:href "#/courses/id"} "id"]])
+   [courses-component]])

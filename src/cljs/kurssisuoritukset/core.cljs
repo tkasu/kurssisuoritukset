@@ -1,9 +1,9 @@
 (ns kurssisuoritukset.core
     (:require [reagent.core :as r]
-              [kurssisuoritukset.views.pages :refer [pages]]
               [kurssisuoritukset.data :refer [current-page current-course]]
               [reagent.session :as s]
               [secretary.core :as secretary :include-macros true]
+              [kurssisuoritukset.views.pages :refer [pages]]
               [goog.events :as events]
               [goog.history.EventType :as EventType])
   (:import goog.History))
