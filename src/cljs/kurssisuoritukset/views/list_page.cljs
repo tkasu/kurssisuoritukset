@@ -24,7 +24,8 @@
             :placeholder "course name"
             :value @value
             :on-change #(reset! value (-> % .-target .-value))}]
-   [:button {:on-click #(add-course @value)}
+   [:button {:on-click #(add-course @value)
+             :class "btn btn-primary"}
     "Add course!"]])
 
 (defn add-course-component []
@@ -43,5 +44,5 @@
         [:li [:a {:href (str "#/courses/" (:id course))} (:name course)]])]]))
 
 (defn list-page []
-  [:div
+  [:div.container
    [courses-component]])

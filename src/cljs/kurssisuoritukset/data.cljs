@@ -12,6 +12,8 @@
 
 (defonce add-assignment-atom (r/atom (str)))
 
+(defonce add-assignment-crd-atom (r/atom (str)))
+
 (defonce assignments-id-counter (r/atom 0))
 
 ;; Helper functions
@@ -27,9 +29,12 @@
 (defn add-assignment [course-id name credits]
   (let [course (get-course course-id)
         assignments (:assignments course)
-        id (inc (count (vals assignments)))]
-    (swap! coursesA assoc-in [course-id :assignments]
-           (assoc assignments id {:id id :name name :credits credits}))))
+        id (swap! assignments-id-counter inc)]
+    (do
+      (swap! coursesA assoc-in [course-id :assignments]
+             (assoc assignments id {:id id :name name :credits credits}))
+      (reset! add-assignment-atom "")
+      (reset! add-assignment-crd-atom ""))))
 
 ;; Page states
 

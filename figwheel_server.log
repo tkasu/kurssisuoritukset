@@ -4677,3 +4677,324 @@ ERROR: Unmatched delimiter ) on file /home/tomikasu/Dropbox/programming/NetBeans
 notifying browser that file changed:  /kurssisuoritukset/data.js
 notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
 notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Bad extend-type method shape for protocol IRenderRoute method render-route, method arities must be grouped together at line 367 file:/home/tomikasu/.m2/repository/secretary/secretary/1.2.1/secretary-1.2.1.jar!/secretary/core.cljs
+WARNING: Bad extend-type method shape for protocol IRenderRoute method render-route, method arities must be grouped together at line 367 file:/home/tomikasu/.m2/repository/secretary/secretary/1.2.1/secretary-1.2.1.jar!/secretary/core.cljs
+WARNING: Bad extend-type method shape for protocol IRenderRoute method render-route, method arities must be grouped together at line 367 resources/public/js/compiled/out/secretary/core.cljs
+WARNING: Bad extend-type method shape for protocol IRenderRoute method render-route, method arities must be grouped together at line 367 resources/public/js/compiled/out/secretary/core.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 12.863 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+notifying browser that file changed:  /kurssisuoritukset/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.281 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+notifying browser that file changed:  /kurssisuoritukset/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.295 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.325 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var kurssisuoritukset.views.list-page/container at line 46 src/cljs/kurssisuoritukset/views/list_page.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.32 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.224 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.248 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.284 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.218 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var kurssisuoritukset.data/temp-counter at line 34 src/cljs/kurssisuoritukset/views/course_page.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.267 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.215 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.284 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.27 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.251 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.229 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.293 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/pages.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+notifying browser that file changed:  /kurssisuoritukset/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.46 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.276 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/pages.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+notifying browser that file changed:  /kurssisuoritukset/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 27 and column 1 on file /home/tomikasu/Dropbox/programming/NetBeansProjects/kesa2015-weso/kurssisuoritukset/src/cljs/kurssisuoritukset/data.cljs, line 44, column 1
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 29 and column 1 on file /home/tomikasu/Dropbox/programming/NetBeansProjects/kesa2015-weso/kurssisuoritukset/src/cljs/kurssisuoritukset/data.cljs, line 46, column 1
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.481 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.157 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/pages.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+notifying browser that file changed:  /kurssisuoritukset/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.26 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/pages.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+notifying browser that file changed:  /kurssisuoritukset/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.484 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.239 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/pages.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+notifying browser that file changed:  /kurssisuoritukset/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.182 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.231 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.262 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Invalid token: : on file /home/tomikasu/Dropbox/programming/NetBeansProjects/kesa2015-weso/kurssisuoritukset/src/cljs/kurssisuoritukset/views/course_page.cljs, line 36, column 15
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.265 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.633 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/tomikasu/Dropbox/programming/NetBeansProjects/kesa2015-weso/kurssisuoritukset/src/cljs/kurssisuoritukset/views/course_page.cljs, line 41, column 39
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/kurssisuoritukset/views/course_page.cljs
+ at clojure.core$ex_info.invoke (core.clj:4403)
+    cljs.compiler$compile_file$fn__3100.invoke (compiler.clj:1142)
+    cljs.compiler$compile_file.invoke (compiler.clj:1105)
+    cljs.compiler$compile_root.invoke (compiler.clj:1177)
+    cljs.closure$compile_dir.invoke (closure.clj:378)
+    cljs.closure$eval3516$fn__3517.invoke (closure.clj:418)
+    cljs.closure$eval3452$fn__3453$G__3443__3460.invoke (closure.clj:325)
+    cljs.closure$eval3503$fn__3504.invoke (closure.clj:432)
+    cljs.closure$eval3452$fn__3453$G__3443__3460.invoke (closure.clj:325)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4245.invoke (core.clj:2557)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:484)
+    clojure.core$seq.invoke (core.clj:133)
+    clojure.core$apply.invoke (core.clj:624)
+    clojure.core$mapcat.doInvoke (core.clj:2586)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1446)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17625.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17658.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17622.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17418.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17424.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17424.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17424.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17427.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17421.invoke (auto.clj:60)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.781 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/tomikasu/Dropbox/programming/NetBeansProjects/kesa2015-weso/kurssisuoritukset/src/cljs/kurssisuoritukset/views/course_page.cljs, line 43, column 44
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.168 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.266 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.175 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.157 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.143 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.193 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.188 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.176 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.191 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.166 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.177 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.216 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.205 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.211 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.188 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.145 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.218 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.19 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.218 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js

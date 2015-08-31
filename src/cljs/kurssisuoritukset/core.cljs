@@ -2,7 +2,7 @@
     (:require [reagent.core :as r]
               [kurssisuoritukset.data :refer [current-page current-course]]
               [reagent.session :as s]
-              [secretary.core :as secretary :include-macros true]
+              [secretary.core :as secretary :refer-macros [defroute]]
               [kurssisuoritukset.views.pages :refer [pages]]
               [goog.events :as events]
               [goog.history.EventType :as EventType])
@@ -22,15 +22,13 @@
       (s/put! :current-course id)
       (s/put! :current-page course-page))))
 
-; Routes helper
-
-; Rout
+; Route
 
 (secretary/set-config! :prefix "#")
 
-(secretary/defroute "/" [] (list-page-helper))
+(defroute "/" [] (list-page-helper))
 
-(secretary/defroute "/courses/:id" [id] (course-page-helper id))
+(defroute "/courses/:id" [id] (course-page-helper id))
 
 (defn hook-browser-navigation! []
   (doto (History.)

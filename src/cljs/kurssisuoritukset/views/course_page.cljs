@@ -5,33 +5,49 @@
 (enable-console-print!)
 
 (defn add-assignment-input [name-value crd-value]
-  [:div
-   [:input {:id "assignment-name"
-            :type "text"
-            :placeholder "assignment name"
-            :value @name-value
-            :on-change #(reset! name-value (-> % .-target .-value))}]
-   [:input {:id "assignment-credit"
-            :type "text"
-            :placeholder "credits"
-            :value @crd-value
-            :on-change #(reset! crd-value (-> % .-target .-value))}]
-   [:button {:on-click #(add-assignment (current-course) @name-value @crd-value)} "Add assignment!"]])
+  [:div.form-inline
+   [:div.form-group
+     [:input {:id "assignment-name"
+              :class "form-control"
+              :type "text"
+              :placeholder "assignment name"
+              :value @name-value
+              :on-change #(reset! name-value (-> % .-target .-value))}]]
+   [:div.form-group
+     [:input {:id "assignment-credit"
+              :class "form-control"
+              :type "text"
+              :placeholder "credits"
+              :value @crd-value
+              :on-change #(reset! crd-value (-> % .-target .-value))}]]
+   [:button {:class "btn btn-primary"
+             :on-click #(add-assignment (int (current-course))
+                                        @name-value
+                                        (int @crd-value))}
+    "Add assignment!"]])
 
 
 (defn course-page []
-    [:div
+  [:div
+    [:div.container
      (when (not (nil? current-course))
        (let [course (get-course (int (current-course)))]
          [:div {:id "course-mod"}
           [:h2 "Course:"]
           [:input {:default-value (:name course)}]
           [:h3 "Assignments:"]
-          [:ul
+          [:table.table
+           [:thead
+            [:tr
+              [:th "Assignment"]
+              [:th "Max points"]]]
+           [:tbody
            (for [assignment (vals (:assignments course))]
              ^{:key (:id assignment)}
-             [:li (:name assignment)])]
-           ;[add-assignment-input data/add-assignment-atom data/temp-counter]
-           ]))
-     [:a {:href "#/"} " back to front page"]])
+              [:tr
+               [:td (:name assignment)]
+               [:td (:credits assignment)]])]]
+           [add-assignment-input data/add-assignment-atom data/add-assignment-crd-atom]]))]
+    [:div.container
+       [:a {:href "#/"} " back to the front page"]]])
 
