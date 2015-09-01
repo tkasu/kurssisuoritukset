@@ -11,5 +11,9 @@
            (resources "/")
            (not-found "Page not found"))
 
+(defn start [port]
+  (ring/run-jetty #'routes {:port port :join? false}))
+
 (defn -main []
-  (ring/run-jetty #'routes {:port 8080 :join? false}))
+  (let [port (Integer. (or (System/getenv "PORT") "8080"))]
+    (start port)))
