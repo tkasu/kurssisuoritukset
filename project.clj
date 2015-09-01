@@ -1,16 +1,38 @@
 (defproject kurssisuoritukset "0.1.0-SNAPSHOT"
-  :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-3211"]
+  :dependencies [[org.clojure/clojure "1.7.0"]
+                 [org.clojure/clojurescript "1.7.107" :scope "provided"]
                  [reagent "0.5.1-rc"]
                  [reagent-utils "0.1.5"]
-                 [secretary "1.2.1"]]
+                 [secretary "1.2.1"]
+                 [compojure "1.4.0"]
+                 [ring/ring-core "1.4.0"]
+                 [ring/ring-jetty-adapter "1.4.0"]]
 
-  :source-paths ["src/clj"]
+  :source-paths ["src/clj" "src/cljs"]
 
   :plugins [[lein-cljsbuild "1.0.6"]
-            [lein-figwheel "0.3.3"]]
+            [lein-figwheel "0.3.3"]
+            [lein-ring "0.9.6"]]
 
   :clean-targets ^{:protect false} ["resources/public/js/compiled" "target"]
+
+  :auto-clean false
+
+  :main ^:skip-aot kurssisuoritukset.core
+  :profiles {:uberjar {:aot :all}
+             :hooks ['leiningen.cljsbuild]
+             :cljsbuild {:jar true
+                         :builds {
+                                  :id "min"
+                                   :source-paths ["src/cljs"]
+
+                                   :compiler {:main kurssisuoritukset.core
+                                              :output-to "resources/public/js/compiled/app.js"
+                                              :optimizations :advanced
+                                              :pretty-print false}}}}
+
+  :uberjar-name "kurssisuoritukset-standalone.jar"
+
 
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src/cljs"]
@@ -26,7 +48,10 @@
 
                        {:id "min"
                         :source-paths ["src/cljs"]
+
                         :compiler {:main kurssisuoritukset.core
                                    :output-to "resources/public/js/compiled/app.js"
                                    :optimizations :advanced
-                                   :pretty-print false}}]})
+                                   :pretty-print false}}]}
+
+  :ring {:handler kurssisuoritukset.core/-main})
