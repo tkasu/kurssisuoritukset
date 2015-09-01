@@ -31,6 +31,8 @@
                                               :optimizations :advanced
                                               :pretty-print false}}}}
 
+  :min-lein-version "2.0.0"
+
   :uberjar-name "kurssisuoritukset-standalone.jar"
 
 
