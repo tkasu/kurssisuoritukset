@@ -6,11 +6,9 @@
 
 (defonce coursesA (r/atom (sorted-map)))
 
-(defonce studentsA (r/atom (sorted-map)))
-
 (defonce courses-id-counter (r/atom 0))
 
-(defonce student-id-counter (r/atom 0))
+(defonce result-id-counter (r/atom 0))
 
 (defonce add-course-atom (r/atom (str)))
 
@@ -36,12 +34,15 @@
         id (swap! assignments-id-counter inc)]
     (do
       (swap! coursesA assoc-in [course-id :assignments]
-             (assoc assignments id {:id id :name name :credits credits}))
+             (assoc assignments id {:id id :name name :credits credits :results (sorted-map)}))
       (reset! add-assignment-atom "")
       (reset! add-assignment-crd-atom ""))))
 
-(defn add-student [name]
-  )
+(defn add-result [course-id assignment-id student-id points]
+  (let [result-id (swap! result-id-counter inc)
+        results (:results (:assignments course))]
+    (swap! coursesA assoc-in [course-id :assignments assignment-id :results]
+           (assoc results result-id {:id result-id :student-id student-id :points points}))))
 
 ;; Page states
 

@@ -49,5 +49,8 @@
                [:td (:credits assignment)]])]]
            [add-assignment-input data/add-assignment-atom data/add-assignment-crd-atom]]))]
     [:div.container
-       [:a {:href "#/"} " back to the front page"]]])
+     [:br]
+     [:a {:href (str "#/courses/" (current-course) "/results")} "Course results"]
+     [:br]
+     [:a {:href "#/"} " back to the front page"]]])
 

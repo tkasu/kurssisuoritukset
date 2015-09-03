@@ -39,7 +39,7 @@
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src/cljs"]
 
-                        :figwheel {:on-jsload "kurssisuoritukset.core/init"
+                        :figwheel {:on-jsload "kurssisuoritukset.core/main"
                                    :server-port 3449}
 
                         :compiler {:main kurssisuoritukset.core

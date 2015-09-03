@@ -8,8 +8,6 @@
               [goog.history.EventType :as EventType])
   (:import goog.History))
 
-(comment [kurssisuoritukset.session :as session :refer [global-put!]])
-
 ; Route helpers
 
 (defn list-page-helper []
@@ -22,6 +20,12 @@
       (s/put! :current-course id)
       (s/put! :current-page course-page))))
 
+(defn result-page-helper [id]
+  (let [result-page (#'pages :result-page)]
+    (do
+      (s/put! :current-course id)
+      (s/put! :current-page result-page))))
+
 ; Route
 
 (secretary/set-config! :prefix "#")
@@ -29,6 +33,8 @@
 (defroute "/" [] (list-page-helper))
 
 (defroute "/courses/:id" [id] (course-page-helper id))
+
+(defroute "/courses/:id/results" [id] (result-page-helper id))
 
 (defn hook-browser-navigation! []
   (doto (History.)
@@ -38,10 +44,10 @@
         (secretary/dispatch! (.-token event))))
     (.setEnabled true)))
 
+(hook-browser-navigation!)
 ; Render views
 
-(defn init []
-    (hook-browser-navigation!)
+(defn ^:export main []
     (r/render [current-page]
                (.getElementById js/document "app")))
 
