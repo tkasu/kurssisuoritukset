@@ -7188,3 +7188,133 @@ notifying browser that file changed:  /kurssisuoritukset/data.js
 notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
 notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
 notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.28 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_mod_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.182 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var kurssisuoritukset.data/dissoc-in at line 49 src/cljs/kurssisuoritukset/data.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.348 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.194 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/kurssisuoritukset/views/course_results_mod_page.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3149.invoke (compiler.cljc:1344)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1306)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1381)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3592$fn__3593.invoke (closure.clj:478)
+    cljs.closure$eval3544$fn__3545$G__3535__3552.invoke (closure.clj:383)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:492)
+    cljs.closure$eval3544$fn__3545$G__3535__3552.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1674)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15968.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16014.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15965.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15761.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15767.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15767.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15767.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15770.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15764.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15782.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15868$state_machine__9357__auto____15869$fn__15874.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/kurssisuoritukset/views/course_results_mod_page.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3149.invoke (compiler.cljc:1344)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1306)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1381)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3592$fn__3593.invoke (closure.clj:478)
+    cljs.closure$eval3544$fn__3545$G__3535__3552.invoke (closure.clj:383)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:492)
+    cljs.closure$eval3544$fn__3545$G__3535__3552.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1674)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15968.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16014.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15965.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15761.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15767.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15767.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15767.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15770.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15764.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15782.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15868$state_machine__9357__auto____15869$fn__15874.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/kurssisuoritukset/views/course_results_mod_page.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3149.invoke (compiler.cljc:1344)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1306)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1381)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3592$fn__3593.invoke (closure.clj:478)
+    cljs.closure$eval3544$fn__3545$G__3535__3552.invoke (closure.clj:383)
+    cljs.closure$eval3605$fn__3606.invoke (closure.clj:492)
+    cljs.closure$eval3544$fn__3545$G__3535__3552.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1674)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15968.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16014.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15965.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15761.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15767.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15767.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15767.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15770.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15764.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15782.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15868$state_machine__9357__auto____15869$fn__15874.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.377 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_mod_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js

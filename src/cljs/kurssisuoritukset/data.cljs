@@ -45,14 +45,11 @@
     (swap! coursesA assoc-in [course-id :assignments assignment-id :results]
            (assoc results student-id {:student-id student-id :points points}))))
 
-
-(defn add-course-results [course-id assignments student-id]
-  (for [assignment (vals assignments)]
-    (add-result
-      course-id
-      (:id assignment)
-      student-id
-      20)))
+(defn delete-result [course-id assignment-id student-id]
+  (let [results (get-in (get-course course-id)
+                        [:assignments assignment-id :results])]
+    (swap! coursesA assoc-in [course-id :assignments assignment-id :results]
+           (dissoc results student-id))))
 
 (defn get-students [course-id]
   (into []

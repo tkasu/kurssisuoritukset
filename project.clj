@@ -21,7 +21,7 @@
   :auto-clean false
 
   :main ^:skip-aot kurssisuoritukset.core
-  :profiles {:uberjar {:aot :all}
+  :profiles {:uberjar {:aot [kurssisuoritukset.core]}
              :hooks ['leiningen.cljsbuild]
              :cljsbuild {:jar true
                          :builds {
