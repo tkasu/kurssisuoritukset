@@ -40,9 +40,24 @@
 
 (defn add-result [course-id assignment-id student-id points]
   (let [result-id (swap! result-id-counter inc)
-        results (:results (:assignments course))]
+        results (get-in (get-course course-id) [:assignments assignment-id :results])]
     (swap! coursesA assoc-in [course-id :assignments assignment-id :results]
            (assoc results result-id {:id result-id :student-id student-id :points points}))))
+
+(defn get-students [course-id]
+  (into []
+        (distinct
+          (apply concat
+                 (reduce
+                   (fn [acc next]
+                     (let [students (reduce (fn [acc-s next-s]
+                                              (let [student (:student-id next-s)]
+                                                (conj acc-s student)))
+                                            []
+                                            (vals (:results next)))]
+                       (conj acc students)))
+                   []
+                   (vals (get-in @coursesA [course-id :assignments])))))))
 
 ;; Page states
 

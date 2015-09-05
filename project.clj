@@ -6,12 +6,14 @@
                  [secretary "1.2.1"]
                  [compojure "1.4.0"]
                  [ring/ring-core "1.4.0"]
-                 [ring/ring-jetty-adapter "1.4.0"]]
+                 [ring/ring-jetty-adapter "1.4.0"]
+                 [figwheel "0.3.6"]
+                 [figwheel-sidecar "0.3.6"]]
 
   :source-paths ["src/clj" "src/cljs"]
 
   :plugins [[lein-cljsbuild "1.0.6"]
-            [lein-figwheel "0.3.3"]
+            [lein-figwheel "0.3.6"]
             [lein-ring "0.9.6"]]
 
   :clean-targets ^{:protect false} ["resources/public/js/compiled" "target"]

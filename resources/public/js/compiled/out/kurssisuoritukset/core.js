@@ -26,69 +26,69 @@ reagent.session.put_BANG_.call(null,new cljs.core.Keyword(null,"current-course",
 return reagent.session.put_BANG_.call(null,new cljs.core.Keyword(null,"current-page","current-page",-101294180),result_page);
 });
 secretary.core.set_config_BANG_.call(null,new cljs.core.Keyword(null,"prefix","prefix",-265908465),"#");
-var action__20855__auto___22127 = (function (params__20856__auto__){
-if(cljs.core.map_QMARK_.call(null,params__20856__auto__)){
-var map__22124 = params__20856__auto__;
-var map__22124__$1 = ((((!((map__22124 == null)))?((((map__22124.cljs$lang$protocol_mask$partition0$ & (64))) || (map__22124.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__22124):map__22124);
+var action__19013__auto___23856 = (function (params__19014__auto__){
+if(cljs.core.map_QMARK_.call(null,params__19014__auto__)){
+var map__23853 = params__19014__auto__;
+var map__23853__$1 = ((((!((map__23853 == null)))?((((map__23853.cljs$lang$protocol_mask$partition0$ & (64))) || (map__23853.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__23853):map__23853);
 return kurssisuoritukset.core.list_page_helper.call(null);
 } else {
-if(cljs.core.vector_QMARK_.call(null,params__20856__auto__)){
-var vec__22126 = params__20856__auto__;
+if(cljs.core.vector_QMARK_.call(null,params__19014__auto__)){
+var vec__23855 = params__19014__auto__;
 return kurssisuoritukset.core.list_page_helper.call(null);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_.call(null,"/",action__20855__auto___22127);
+secretary.core.add_route_BANG_.call(null,"/",action__19013__auto___23856);
 
-var action__20855__auto___22131 = (function (params__20856__auto__){
-if(cljs.core.map_QMARK_.call(null,params__20856__auto__)){
-var map__22128 = params__20856__auto__;
-var map__22128__$1 = ((((!((map__22128 == null)))?((((map__22128.cljs$lang$protocol_mask$partition0$ & (64))) || (map__22128.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__22128):map__22128);
-var id = cljs.core.get.call(null,map__22128__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var action__19013__auto___23860 = (function (params__19014__auto__){
+if(cljs.core.map_QMARK_.call(null,params__19014__auto__)){
+var map__23857 = params__19014__auto__;
+var map__23857__$1 = ((((!((map__23857 == null)))?((((map__23857.cljs$lang$protocol_mask$partition0$ & (64))) || (map__23857.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__23857):map__23857);
+var id = cljs.core.get.call(null,map__23857__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
 return kurssisuoritukset.core.course_page_helper.call(null,id);
 } else {
-if(cljs.core.vector_QMARK_.call(null,params__20856__auto__)){
-var vec__22130 = params__20856__auto__;
-var id = cljs.core.nth.call(null,vec__22130,(0),null);
+if(cljs.core.vector_QMARK_.call(null,params__19014__auto__)){
+var vec__23859 = params__19014__auto__;
+var id = cljs.core.nth.call(null,vec__23859,(0),null);
 return kurssisuoritukset.core.course_page_helper.call(null,id);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_.call(null,"/courses/:id",action__20855__auto___22131);
+secretary.core.add_route_BANG_.call(null,"/courses/:id",action__19013__auto___23860);
 
-var action__20855__auto___22135 = (function (params__20856__auto__){
-if(cljs.core.map_QMARK_.call(null,params__20856__auto__)){
-var map__22132 = params__20856__auto__;
-var map__22132__$1 = ((((!((map__22132 == null)))?((((map__22132.cljs$lang$protocol_mask$partition0$ & (64))) || (map__22132.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__22132):map__22132);
-var id = cljs.core.get.call(null,map__22132__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var action__19013__auto___23864 = (function (params__19014__auto__){
+if(cljs.core.map_QMARK_.call(null,params__19014__auto__)){
+var map__23861 = params__19014__auto__;
+var map__23861__$1 = ((((!((map__23861 == null)))?((((map__23861.cljs$lang$protocol_mask$partition0$ & (64))) || (map__23861.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__23861):map__23861);
+var id = cljs.core.get.call(null,map__23861__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
 return kurssisuoritukset.core.result_page_helper.call(null,id);
 } else {
-if(cljs.core.vector_QMARK_.call(null,params__20856__auto__)){
-var vec__22134 = params__20856__auto__;
-var id = cljs.core.nth.call(null,vec__22134,(0),null);
+if(cljs.core.vector_QMARK_.call(null,params__19014__auto__)){
+var vec__23863 = params__19014__auto__;
+var id = cljs.core.nth.call(null,vec__23863,(0),null);
 return kurssisuoritukset.core.result_page_helper.call(null,id);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_.call(null,"/courses/:id/results",action__20855__auto___22135);
+secretary.core.add_route_BANG_.call(null,"/courses/:id/results",action__19013__auto___23864);
 
 kurssisuoritukset.core.hook_browser_navigation_BANG_ = (function kurssisuoritukset$core$hook_browser_navigation_BANG_(){
-var G__22137 = (new goog.History());
-goog.events.listen(G__22137,goog.history.EventType.NAVIGATE,((function (G__22137){
+var G__23866 = (new goog.History());
+goog.events.listen(G__23866,goog.history.EventType.NAVIGATE,((function (G__23866){
 return (function (event){
 return secretary.core.dispatch_BANG_.call(null,event.token);
-});})(G__22137))
+});})(G__23866))
 );
 
-G__22137.setEnabled(true);
+G__23866.setEnabled(true);
 
-return G__22137;
+return G__23866;
 });
 kurssisuoritukset.core.hook_browser_navigation_BANG_.call(null);
 kurssisuoritukset.core.main = (function kurssisuoritukset$core$main(){
@@ -96,4 +96,4 @@ return reagent.core.render.call(null,new cljs.core.PersistentVector(null, 1, 5, 
 });
 goog.exportSymbol('kurssisuoritukset.core.main', kurssisuoritukset.core.main);
 
-//# sourceMappingURL=core.js.map?rel=1441306373930
+//# sourceMappingURL=core.js.map?rel=1441453633683
