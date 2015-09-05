@@ -5989,3 +5989,181 @@ notifying browser that file changed:  /kurssisuoritukset/data.js
 notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
 notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
 notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.316 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.305 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var kurssisuoritukset.script.repl-dev/require at line 3 src/cljs/kurssisuoritukset/script/repl_dev.cljs
+WARNING: No such namespace: data, could not locate data.cljs, data.cljc, or Closure namespace "" at line 5 src/cljs/kurssisuoritukset/script/repl_dev.cljs
+WARNING: Use of undeclared Var data/current-page at line 5 src/cljs/kurssisuoritukset/script/repl_dev.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.279 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.264 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var kurssisuoritukset.script.repl-dev/require at line 3 src/cljs/kurssisuoritukset/script/repl_dev.cljs
+WARNING: No such namespace: data, could not locate data.cljs, data.cljc, or Closure namespace "" at line 5 src/cljs/kurssisuoritukset/script/repl_dev.cljs
+WARNING: Use of undeclared Var data/current-page at line 5 src/cljs/kurssisuoritukset/script/repl_dev.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.404 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: No such namespace: data, could not locate data.cljs, data.cljc, or Closure namespace "" at line 4 src/cljs/kurssisuoritukset/script/repl_dev.cljs
+WARNING: Use of undeclared Var data/current-page at line 4 src/cljs/kurssisuoritukset/script/repl_dev.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.264 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.193 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /home/tomikasu/Dropbox/programming/NetBeansProjects/kesa2015-weso/kurssisuoritukset/src/cljs/kurssisuoritukset/views/course_results_page.cljs, line 29, column 48
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.349 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.275 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/tomikasu/Dropbox/programming/NetBeansProjects/kesa2015-weso/kurssisuoritukset/src/cljs/kurssisuoritukset/views/course_results_page.cljs, line 32, column 42
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/tomikasu/Dropbox/programming/NetBeansProjects/kesa2015-weso/kurssisuoritukset/src/cljs/kurssisuoritukset/views/course_results_page.cljs, line 32, column 44
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/tomikasu/Dropbox/programming/NetBeansProjects/kesa2015-weso/kurssisuoritukset/src/cljs/kurssisuoritukset/views/course_results_page.cljs, line 32, column 46
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.297 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.355 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.214 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.239 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.241 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.258 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.341 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.207 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var kurssisuoritukset.views.course-results-page/assignment at line 28 src/cljs/kurssisuoritukset/views/course_results_page.cljs
+WARNING: Use of undeclared Var kurssisuoritukset.views.course-results-page/assignment at line 34 src/cljs/kurssisuoritukset/views/course_results_page.cljs
+WARNING: Use of undeclared Var kurssisuoritukset.views.course-results-page/assignment at line 37 src/cljs/kurssisuoritukset/views/course_results_page.cljs
+WARNING: Use of undeclared Var kurssisuoritukset.views.course-results-page/assignment at line 29 src/cljs/kurssisuoritukset/views/course_results_page.cljs
+WARNING: Use of undeclared Var kurssisuoritukset.views.course-results-page/assignment at line 28 src/cljs/kurssisuoritukset/views/course_results_page.cljs
+WARNING: Use of undeclared Var kurssisuoritukset.views.course-results-page/assignment at line 34 src/cljs/kurssisuoritukset/views/course_results_page.cljs
+WARNING: Use of undeclared Var kurssisuoritukset.views.course-results-page/assignment at line 37 src/cljs/kurssisuoritukset/views/course_results_page.cljs
+WARNING: Use of undeclared Var kurssisuoritukset.views.course-results-page/assignment at line 29 src/cljs/kurssisuoritukset/views/course_results_page.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.465 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.295 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.297 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.293 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.364 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.304 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/pages.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+notifying browser that file changed:  /kurssisuoritukset/core.js

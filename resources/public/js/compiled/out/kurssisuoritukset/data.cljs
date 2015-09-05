@@ -8,8 +8,6 @@
 
 (defonce courses-id-counter (r/atom 0))
 
-(defonce result-id-counter (r/atom 0))
-
 (defonce add-course-atom (r/atom (str)))
 
 (defonce add-assignment-atom (r/atom (str)))
@@ -39,10 +37,10 @@
       (reset! add-assignment-crd-atom ""))))
 
 (defn add-result [course-id assignment-id student-id points]
-  (let [result-id (swap! result-id-counter inc)
-        results (get-in (get-course course-id) [:assignments assignment-id :results])]
+  (let [results (get-in (get-course course-id)
+                        [:assignments assignment-id :results])]
     (swap! coursesA assoc-in [course-id :assignments assignment-id :results]
-           (assoc results result-id {:id result-id :student-id student-id :points points}))))
+           (assoc results student-id {:student-id student-id :points points}))))
 
 (defn get-students [course-id]
   (into []
@@ -58,6 +56,10 @@
                        (conj acc students)))
                    []
                    (vals (get-in @coursesA [course-id :assignments])))))))
+
+(defn get-student-points [course-id assignment-id student-id]
+  (get-in @coursesA
+          [course-id :assignments assignment-id :results student-id :points]))
 
 ;; Page states
 
