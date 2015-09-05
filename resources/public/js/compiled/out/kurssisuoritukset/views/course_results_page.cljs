@@ -34,4 +34,11 @@
                      (:id assignment)
                      student)
                    " / "
-                   (:credits assignment))])])]]]))]])
+                   (:credits assignment))])])]]]))
+    [:div
+     [:a {:href (str "#/courses/" (current-course) "/results/mod")}
+      "Add course results"]
+     [:br]
+     [:a {:href (str "#/courses/" (current-course))}
+      "Back to course page"]
+     ]]])

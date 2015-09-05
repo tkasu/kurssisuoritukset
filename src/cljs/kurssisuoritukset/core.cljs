@@ -26,6 +26,12 @@
       (s/put! :current-course id)
       (s/put! :current-page result-page))))
 
+(defn result-mod-page-helper [id]
+  (let [result-mod-page (#'pages :result-mod-page)]
+    (do
+      (s/put! :current-course id)
+      (s/put! :current-page result-mod-page))))
+
 ; Route
 
 (secretary/set-config! :prefix "#")
@@ -35,6 +41,8 @@
 (defroute "/courses/:id" [id] (course-page-helper id))
 
 (defroute "/courses/:id/results" [id] (result-page-helper id))
+
+(defroute "/courses/:id/results/mod" [id] (result-mod-page-helper id))
 
 (defn hook-browser-navigation! []
   (doto (History.)

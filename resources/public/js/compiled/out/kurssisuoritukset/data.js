@@ -15,6 +15,10 @@ if(typeof kurssisuoritukset.data.add_course_atom !== 'undefined'){
 } else {
 kurssisuoritukset.data.add_course_atom = reagent.core.atom.call(null,[].join(''));
 }
+if(typeof kurssisuoritukset.data.add_result_atom !== 'undefined'){
+} else {
+kurssisuoritukset.data.add_result_atom = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"student-id","student-id",-1009111442),reagent.core.atom.call(null,[].join('')),new cljs.core.Keyword(null,"points","points",-1486596883),reagent.core.atom.call(null,cljs.core.sorted_map.call(null))], null);
+}
 if(typeof kurssisuoritukset.data.add_assignment_atom !== 'undefined'){
 } else {
 kurssisuoritukset.data.add_assignment_atom = reagent.core.atom.call(null,[].join(''));
@@ -50,6 +54,50 @@ kurssisuoritukset.data.add_result = (function kurssisuoritukset$data$add_result(
 var results = cljs.core.get_in.call(null,kurssisuoritukset.data.get_course.call(null,course_id),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"assignments","assignments",-1114514911),assignment_id,new cljs.core.Keyword(null,"results","results",-1134170113)], null));
 return cljs.core.swap_BANG_.call(null,kurssisuoritukset.data.coursesA,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [course_id,new cljs.core.Keyword(null,"assignments","assignments",-1114514911),assignment_id,new cljs.core.Keyword(null,"results","results",-1134170113)], null),cljs.core.assoc.call(null,results,student_id,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"student-id","student-id",-1009111442),student_id,new cljs.core.Keyword(null,"points","points",-1486596883),points], null)));
 });
+kurssisuoritukset.data.add_course_results = (function kurssisuoritukset$data$add_course_results(course_id,assignments,student_id){
+var iter__17289__auto__ = (function kurssisuoritukset$data$add_course_results_$_iter__24643(s__24644){
+return (new cljs.core.LazySeq(null,(function (){
+var s__24644__$1 = s__24644;
+while(true){
+var temp__4425__auto__ = cljs.core.seq.call(null,s__24644__$1);
+if(temp__4425__auto__){
+var s__24644__$2 = temp__4425__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,s__24644__$2)){
+var c__17287__auto__ = cljs.core.chunk_first.call(null,s__24644__$2);
+var size__17288__auto__ = cljs.core.count.call(null,c__17287__auto__);
+var b__24646 = cljs.core.chunk_buffer.call(null,size__17288__auto__);
+if((function (){var i__24645 = (0);
+while(true){
+if((i__24645 < size__17288__auto__)){
+var assignment = cljs.core._nth.call(null,c__17287__auto__,i__24645);
+cljs.core.chunk_append.call(null,b__24646,kurssisuoritukset.data.add_result.call(null,course_id,new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(assignment),student_id,(20)));
+
+var G__24647 = (i__24645 + (1));
+i__24645 = G__24647;
+continue;
+} else {
+return true;
+}
+break;
+}
+})()){
+return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__24646),kurssisuoritukset$data$add_course_results_$_iter__24643.call(null,cljs.core.chunk_rest.call(null,s__24644__$2)));
+} else {
+return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__24646),null);
+}
+} else {
+var assignment = cljs.core.first.call(null,s__24644__$2);
+return cljs.core.cons.call(null,kurssisuoritukset.data.add_result.call(null,course_id,new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(assignment),student_id,(20)),kurssisuoritukset$data$add_course_results_$_iter__24643.call(null,cljs.core.rest.call(null,s__24644__$2)));
+}
+} else {
+return null;
+}
+break;
+}
+}),null,null));
+});
+return iter__17289__auto__.call(null,cljs.core.vals.call(null,assignments));
+});
 kurssisuoritukset.data.get_students = (function kurssisuoritukset$data$get_students(course_id){
 return cljs.core.into.call(null,cljs.core.PersistentVector.EMPTY,cljs.core.distinct.call(null,cljs.core.apply.call(null,cljs.core.concat,cljs.core.reduce.call(null,(function (acc,next){
 var students = cljs.core.reduce.call(null,(function (acc_s,next_s){
@@ -69,4 +117,4 @@ kurssisuoritukset.data.current_course = (function kurssisuoritukset$data$current
 return reagent.session.get.call(null,new cljs.core.Keyword(null,"current-course","current-course",610293347));
 });
 
-//# sourceMappingURL=data.js.map?rel=1441460651344
+//# sourceMappingURL=data.js.map?rel=1441467248822
