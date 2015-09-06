@@ -15,8 +15,4 @@ java $JVM_OPTS -jar target/kurssisuoritukset-standalone.jar
 
 ## TODO
 
-Functionality to add results
-
-Functionality to modify/remove courses and assignments
-
 DB integration
