@@ -10,7 +10,8 @@
 
 (defonce add-course-atom (r/atom (str)))
 
-(defonce add-result-atom (r/atom (str)))
+(defonce add-result-atom {:student-id (r/atom (str))
+                          :points (r/atom (sorted-map))})
 
 (defonce add-assignment-atom (r/atom (str)))
 
@@ -43,6 +44,12 @@
                         [:assignments assignment-id :results])]
     (swap! coursesA assoc-in [course-id :assignments assignment-id :results]
            (assoc results student-id {:student-id student-id :points points}))))
+
+(defn delete-result [course-id assignment-id student-id]
+  (let [results (get-in (get-course course-id)
+                        [:assignments assignment-id :results])]
+    (swap! coursesA assoc-in [course-id :assignments assignment-id :results]
+           (dissoc results student-id))))
 
 (defn get-students [course-id]
   (into []

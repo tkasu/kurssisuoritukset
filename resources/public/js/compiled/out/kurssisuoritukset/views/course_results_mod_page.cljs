@@ -3,6 +3,7 @@
     [reagent.core :as r]
     [kurssisuoritukset.data :as data :refer
      [add-result-atom add-result
+      delete-course-result
       get-course get-students get-student-points
       add-assignment current-course]]))
 
@@ -58,7 +59,10 @@
                      student)
                    " / "
                    (:credits assignment))])
-              [:td [:button {:on-click #()
+              [:td [:button {:on-click #(doall
+                                         (delete-course-result
+                                           (int (current-course))
+                                           student))
                              :class "btn btn-danger"}
                     "Delete result"]]])
            [:tr

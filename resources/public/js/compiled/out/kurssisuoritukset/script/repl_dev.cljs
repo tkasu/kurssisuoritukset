@@ -10,8 +10,6 @@
 
   (get-course 1)
 
-
-
   (into []
         (distinct
           (apply concat
@@ -41,7 +39,8 @@
   (require '[kurssisuoritukset.data :as data :refer [get-course
                                                      add-result-atom
                                                      current-course
-                                                     add-result]])
+                                                     add-result
+                                                     delete-course-result]])
 
   (:student-id add-result-atom)
   (:points add-result-atom)
@@ -76,7 +75,62 @@
               @(get @assignments-points-atom 2))
 
 
+  @coursesA
 
+  (defn remove-result-backup [course-id student-id]
+    (reduce (fn [acc next]
+             (let [results (:results next)]
+              (conj acc results)))
+          []
+          (vals (get-in @coursesA [course-id :assignments]))))
+
+  (defn remove-result-backup2 [course-id student-id]
+    (reduce (fn [acc next]
+              (let [results (:results next)]
+                (reduce
+                  (fn [acc next]
+                    (if (= (:student-id (vals next)) student-id)
+                      (do
+                        (println (:student-id (vals next)))
+                        acc)
+                      (conj acc next)))
+                  results)))
+            []
+            (vals (get-in @coursesA [course-id :assignments]))))
+
+  (defn delete-result [course-id assignment-id student-id]
+    (let [results (get-in (get-course course-id)
+                          [:assignments assignment-id :results])]
+      (swap! coursesA assoc-in [course-id :assignments assignment-id :results]
+             (dissoc results student-id))))
+
+  (defn delete-course-result-backup [course-id student-id]
+    (reduce (fn [acc next]
+              (let [results (:results next)]
+                (reduce
+                  (fn [acc-r next-r]
+                    (if (= (key next-r) student-id)
+                      (do
+                        (delete-result course-id (:id next) student-id)
+                        (println (str "I'm here!" next))))
+                    (println (:id next)))
+                  []
+                  results)))
+            []
+            (vals (get-in @coursesA [course-id :assignments]))))
+
+  (vals (get-in @coursesA [1 :assignments]))
+
+  (delete-result 1 1 "012345678")
+
+
+
+  (delete-course-result 1 "001122334")
+
+  @coursesA
+
+
+  (remove-result 1 "001122334")
 
   )
 

@@ -58,6 +58,23 @@ kurssisuoritukset.data.delete_result = (function kurssisuoritukset$data$delete_r
 var results = cljs.core.get_in.call(null,kurssisuoritukset.data.get_course.call(null,course_id),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"assignments","assignments",-1114514911),assignment_id,new cljs.core.Keyword(null,"results","results",-1134170113)], null));
 return cljs.core.swap_BANG_.call(null,kurssisuoritukset.data.coursesA,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [course_id,new cljs.core.Keyword(null,"assignments","assignments",-1114514911),assignment_id,new cljs.core.Keyword(null,"results","results",-1134170113)], null),cljs.core.dissoc.call(null,results,student_id));
 });
+/**
+ * Delete students results on a given course. For some reason isn't working in Figwheel REPL
+ */
+kurssisuoritukset.data.delete_course_result = (function kurssisuoritukset$data$delete_course_result(course_id,student_id){
+return cljs.core.reduce.call(null,(function (acc,next){
+var results = new cljs.core.Keyword(null,"results","results",-1134170113).cljs$core$IFn$_invoke$arity$1(next);
+return cljs.core.reduce.call(null,((function (results){
+return (function (acc_r,next_r){
+if(cljs.core._EQ_.call(null,cljs.core.key.call(null,next_r),student_id)){
+return kurssisuoritukset.data.delete_result.call(null,course_id,new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(next),student_id);
+} else {
+return null;
+}
+});})(results))
+,cljs.core.PersistentVector.EMPTY,results);
+}),cljs.core.PersistentVector.EMPTY,cljs.core.vals.call(null,cljs.core.get_in.call(null,cljs.core.deref.call(null,kurssisuoritukset.data.coursesA),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [course_id,new cljs.core.Keyword(null,"assignments","assignments",-1114514911)], null))));
+});
 kurssisuoritukset.data.get_students = (function kurssisuoritukset$data$get_students(course_id){
 return cljs.core.into.call(null,cljs.core.PersistentVector.EMPTY,cljs.core.distinct.call(null,cljs.core.apply.call(null,cljs.core.concat,cljs.core.reduce.call(null,(function (acc,next){
 var students = cljs.core.reduce.call(null,(function (acc_s,next_s){
@@ -77,4 +94,4 @@ kurssisuoritukset.data.current_course = (function kurssisuoritukset$data$current
 return reagent.session.get.call(null,new cljs.core.Keyword(null,"current-course","current-course",610293347));
 });
 
-//# sourceMappingURL=data.js.map?rel=1441470588146
+//# sourceMappingURL=data.js.map?rel=1441528546892

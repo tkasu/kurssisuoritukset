@@ -38,7 +38,15 @@
 
   (ns kurssisuoritukset.views.course-results-mod-page)
 
-  (require '[kurssisuoritukset.data :as data :refer [get-course current-course add-result]])
+  (require '[kurssisuoritukset.data :as data :refer [get-course
+                                                     add-result-atom
+                                                     current-course
+                                                     add-result]])
+
+  (:student-id add-result-atom)
+  (:points add-result-atom)
+
+  (get @(:points add-result-atom) 2)
 
 
   (let [course (get-course (int (current-course)))
@@ -48,5 +56,27 @@
         (int (current-course))
         (:id assignment)
         "12345"
-        20))))
+        20)))
+
+  (let [course (get-course (int (current-course)))
+        assignments (:assignments course)]
+    (add-course-results
+      (int (current-course))
+      assignments
+      "12345"))
+
+  #(add-course-results
+    (int (current-course))
+    assignments
+    "1234")
+
+  (add-result 1
+              2
+              @student-id-atom
+              @(get @assignments-points-atom 2))
+
+
+
+
+  )
 

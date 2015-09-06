@@ -1,4 +1,4 @@
-(ns ^:figwheel-always kurssisuoritukset.data
+(ns kurssisuoritukset.data
   (:require [reagent.core :as r]
             [reagent.session :as s]))
 
@@ -50,6 +50,21 @@
                         [:assignments assignment-id :results])]
     (swap! coursesA assoc-in [course-id :assignments assignment-id :results]
            (dissoc results student-id))))
+
+(defn delete-course-result
+  "Delete students results on a given course. For some reason isn't working in Figwheel REPL"
+  [course-id student-id]
+  (reduce (fn [acc next]
+            (let [results (:results next)]
+              (reduce
+                (fn [acc-r next-r]
+                  (when (= (key next-r) student-id)
+                    (delete-result course-id (:id next) student-id)))
+
+                []
+                results)))
+          []
+          (vals (get-in @coursesA [course-id :assignments]))))
 
 (defn get-students [course-id]
   (into []

@@ -7318,3 +7318,325 @@ notifying browser that file changed:  /kurssisuoritukset/data.js
 notifying browser that file changed:  /kurssisuoritukset/views/course_results_mod_page.js
 notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
 notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.276 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/pages.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_mod_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+notifying browser that file changed:  /kurssisuoritukset/core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.212 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.236 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.189 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.212 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.212 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.182 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.165 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.165 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.196 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.181 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.157 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.194 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.169 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.211 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.18 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.144 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.181 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.145 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.193 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.171 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.19 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.162 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.187 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.186 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.148 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.166 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.145 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.179 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.152 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.142 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.15 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.143 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.141 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.199 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.139 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.158 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.151 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.147 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.153 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var kurssisuoritukset.views.course-results-mod-page/delete-course-result at line 61 src/cljs/kurssisuoritukset/views/course_results_mod_page.cljs
+WARNING: Use of undeclared Var kurssisuoritukset.views.course-results-mod-page/delete-course-result at line 61 src/cljs/kurssisuoritukset/views/course_results_mod_page.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.606 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_mod_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.337 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_mod_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.351 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_mod_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.373 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_mod_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.386 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_results_mod_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.154 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.217 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.201 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.134 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.138 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.159 seconds.[0m
+notifying browser that file changed:  /kurssisuoritukset/script/repl_dev.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.241 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /kurssisuoritukset/data.js
+notifying browser that file changed:  /kurssisuoritukset/views/list_page.js
+notifying browser that file changed:  /kurssisuoritukset/views/course_page.js
