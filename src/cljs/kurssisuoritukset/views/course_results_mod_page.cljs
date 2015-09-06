@@ -1,17 +1,20 @@
-(ns kurssisuoritukset.views.course-results-mod-page
+(ns ^:figwheel-always kurssisuoritukset.views.course-results-mod-page
   (:require
     [reagent.core :as r]
     [kurssisuoritukset.data :as data :refer
      [add-result-atom add-result
       delete-course-result
       get-course get-students get-student-points
-      add-assignment current-course]]))
+      add-assignment current-course
+      current-student
+      set-current-student! set-student-to-input!]]))
 
 (defn result-add-input [value]
   [:div.form-inline
    [:div.form-group
     [:input {:id "student-id"
              :class "form-control"
+             :disabled  (when (not= nil (current-student)) "disabled")
              :type "text"
              :placeholder "student-id"
              :value @value
@@ -43,11 +46,13 @@
             [:th "Student"]
             (for [assignment (vals assignments)]
               ^{:key (:id assignment)}
-              [:th (:name assignment)])]]
+              [:th (:name assignment)])
+            [:th]
+            [:th]]]
           [:tbody
            (for [student students]
              ^{:key student}
-             [:tr
+             [:tr {:class  (when (= student (current-student)) "info")}
               [:td student]
               (for [assignment (vals assignments)]
                 ^{:key (:id assignment)}
@@ -59,26 +64,39 @@
                      student)
                    " / "
                    (:credits assignment))])
-              [:td [:button {:on-click #(doall
-                                         (delete-course-result
-                                           (int (current-course))
-                                           student))
-                             :class "btn btn-danger"}
-                    "Delete result"]]])
-           [:tr
+                [:td
+                 (when (= nil (current-student))
+                   [:button {:on-click #(do
+                                             (set-current-student! student)
+                                             (set-student-to-input! (int (current-course)) student))
+                                 :class "btn btn-default"}
+                        "Modify"])]
+              [:td
+               (when (= nil (current-student))
+                 [:button {:on-click #(doall
+                                           (delete-course-result
+                                             (int (current-course))
+                                             student))
+                               :class "btn btn-danger"}
+                      "Delete"])]])
+           [:tr {:class  (when (not= nil (current-student)) "info")}
               [:td
                 [result-add-input student-id-atom]]
-              (for [assignment (vals assignments)
-                    :let [input-point
-                          (swap! assignments-points-atom
-                                 assoc
-                                 (int (:id assignment))
-                                 (r/atom (str)))]]
+              (for [assignment (vals assignments)]
                 ^{:key (:id assignment)}
                 [:td
-                  [point-add-input (get
-                                     @assignments-points-atom
-                                     (:id assignment))]])
+                  (let [p-input (get
+                                  @assignments-points-atom
+                                  (:id assignment))]
+                        (do
+                          (when (= p-input nil)
+                            (swap! assignments-points-atom
+                                   assoc
+                                   (int (:id assignment))
+                                   (r/atom (str))))
+                        [point-add-input (get
+                                         @assignments-points-atom
+                                         (:id assignment))]))])
               [:td
                [:button {:on-click #(do
                                      (doall
@@ -89,10 +107,22 @@
                                           @student-id-atom
                                           @(get @assignments-points-atom (:id assignment)))))
                                      (reset! student-id-atom "")
-                                     (reset! assignments-points-atom (sorted-map)))
+                                     (reset! assignments-points-atom (sorted-map))
+                                     (set-current-student! nil))
 
                          :class "btn btn-primary"}
-              "Add result!"]]]]]]))
+                (if (= nil (current-student))
+                  (str "Add!")
+                  (str "Modify!"))]]
+
+               [:td
+                (when (not= nil (current-student))
+                  [:button {:on-click #(do
+                                        (set-current-student! nil)
+                                        (reset! student-id-atom "")
+                                        (reset! assignments-points-atom (sorted-map)))
+                            :class    "btn btn-default"}
+                  "Cancel"])]]]]]))
     [:div
      [:a {:href
           (str "#/courses/"

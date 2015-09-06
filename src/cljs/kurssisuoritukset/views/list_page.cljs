@@ -5,7 +5,7 @@
 
 ;; Initial data
 
-(defonce init (do
+  (defonce init (do
                 (add-course "wepa")
                 (add-course "TiKaPe")
                 (add-course "OhPe")

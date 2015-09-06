@@ -5,7 +5,8 @@
               [secretary.core :as secretary :refer-macros [defroute]]
               [kurssisuoritukset.views.pages :refer [pages]]
               [goog.events :as events]
-              [goog.history.EventType :as EventType])
+              [goog.history.EventType :as EventType]
+              [cljs.core.async :as async])
   (:import goog.History))
 
 ; Route helpers

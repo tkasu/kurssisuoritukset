@@ -5,7 +5,8 @@
 
 ;; Initial data
 
-(defonce init (do
+(comment
+  (defonce init (do
                 (add-course "wepa")
                 (add-course "TiKaPe")
                 (add-course "OhPe")
@@ -16,7 +17,7 @@
                 (add-assignment 3 "Suullinen tentti" 50)
                 (add-result 1 1 "012345678" 30)
                 (add-result 1 1 "001122334" 20)
-                (add-result 1 2 "012345678" 40)))
+                (add-result 1 2 "012345678" 40))))
 
 ; Views
 

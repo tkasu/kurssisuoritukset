@@ -8,7 +8,9 @@
                  [ring/ring-core "1.4.0"]
                  [ring/ring-jetty-adapter "1.4.0"]
                  [figwheel "0.3.6"]
-                 [figwheel-sidecar "0.3.6"]]
+                 [figwheel-sidecar "0.3.6"]
+                 [matchbox "0.0.7"]
+                 [org.clojure/core.async "0.1.346.0-17112a-alpha"]]
 
   :source-paths ["src/clj" "src/cljs"]
 

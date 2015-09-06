@@ -1,8 +1,17 @@
-(ns ^:figwheel-always kurssisuoritukset.data
+(ns kurssisuoritukset.data
   (:require [reagent.core :as r]
-            [reagent.session :as s]))
+            [reagent.session :as s]
+            [matchbox.core :as m]
+            [cljs.core.async :as a
+              :refer [<!  >!  chan close! sliding-buffer put! take! alts!]])
+  (:require-macros [cljs.core.async.macros :as m :refer [go alt!]]))
 
 ;; App-state / Models
+
+(def fb-uri "https://kurssisuoritukset.firebaseio.com/")
+
+(def fb-ref
+  (m/connect fb-uri))
 
 (defonce coursesA (r/atom (sorted-map)))
 
@@ -18,6 +27,9 @@
 (defonce add-assignment-crd-atom (r/atom (str)))
 
 (defonce assignments-id-counter (r/atom 0))
+
+;; test
+
 
 ;; Helper functions
 
@@ -51,6 +63,21 @@
     (swap! coursesA assoc-in [course-id :assignments assignment-id :results]
            (dissoc results student-id))))
 
+(defn delete-course-result
+  "Delete students results on a given course. For some reason isn't working in Figwheel REPL"
+  [course-id student-id]
+  (reduce (fn [acc next]
+            (let [results (:results next)]
+              (reduce
+                (fn [acc-r next-r]
+                  (when (= (key next-r) student-id)
+                    (delete-result course-id (:id next) student-id)))
+
+                []
+                results)))
+          []
+          (vals (get-in @coursesA [course-id :assignments]))))
+
 (defn get-students [course-id]
   (into []
         (distinct
@@ -70,6 +97,16 @@
   (get-in @coursesA
           [course-id :assignments assignment-id :results student-id :points]))
 
+(defn set-student-to-input! [course-id student-id]
+  (do
+    (reset! (:student-id add-result-atom) student-id)
+    (doall
+      (for [assignment (vals (:assignments (get-course course-id)))]
+      (swap! (:points add-result-atom) assoc (int (:id assignment))
+             (r/atom (get-in @coursesA [course-id :assignments
+                                        (:id assignment) :results
+                                        student-id :points])))))))
+
 ;; Page states
 
 (defn current-page []
@@ -77,4 +114,10 @@
 
 (defn current-course []
   (s/get :current-course))
+
+(defn current-student []
+  (s/get :current-student))
+
+(defn set-current-student! [student-id]
+  (s/put! :current-student student-id))
 
